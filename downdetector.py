@@ -61,7 +61,7 @@ PARAMS = {
 }
 
 def request(dd_site):
-    url = "https://downdetector.com.br/fora-do-ar/{}/".format(dd_site)
+    url = "http://downdetector.com.br/fora-do-ar/{}/".format(dd_site)
     if not craw:
         print(0)
         exit()
